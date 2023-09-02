@@ -249,7 +249,7 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     width: 200px;
  }
  .play-games{
-    position: relative;
+    position: absolute;
  }
  .img-4 {
     position:relative;
