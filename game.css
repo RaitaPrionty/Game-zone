@@ -1,0 +1,269 @@
+/* styles for full all --------------
+-------------------------------*/
+*{
+    
+    padding: 0;
+}
+
+/* common styles---------------------------
+-------------------------------------- */
+.paragraph{
+    color: #534C64;
+    font-size: 16px;
+    font-weight: 500;
+}
+ .common{
+    /* font-size: 50px; */
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+font-weight: 800;
+}
+.pink{
+    color: #FFF;
+background-color: #FF42A5;
+border: none;
+border-radius: 20px;
+padding: 10px 20px;
+font-size: 16px;
+font-weight: 600;
+}
+/* header part-----------------------------
+------------------------------------- */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 20px 100px;
+    /* width:  1920px; */
+    margin: 0 auto;
+
+}
+.gamer_img{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.header_nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.follow-us{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(11, 2, 35, 0.10);
+    border-radius: 8px;
+    padding: 10px;
+}
+.follow-us img{
+    width: 20px;
+}
+
+
+/* styles of header img-gamer part---------------------
+--------------------------------------------------- */
+.gamer_img img{
+    width: 50px;
+}
+.gamer_img span{
+    color:#FF42A5 ;
+}
+.gamer_img{
+    font-size:20px;
+    font-weight: 700;
+}
+/* styles of header nav part-----------
+----------------------------------- */
+.header_nav a{
+text-decoration: none;
+color: #3C354F;
+font-size: 16px;
+}
+
+
+/* end of header nav part---------------
+----------------------------------- */
+
+
+/* start of banner part--------------
+------------------------------------- */
+
+ .header-banner{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding-top: 30px;
+    padding-right: 100px;
+}
+.banner-writing span{
+    font-size: 50px;
+}
+    
+.p-img{
+    display:flex;
+    align-items: center;
+    gap: 10px; 
+    /* padding-left: 150px; */
+}
+.header-banner> div{
+width: 50%;
+}
+
+.banner-img img{
+    width: 100%;
+}
+.banner-writing{
+    background-image: url(./images/Group\ 14.png),linear-gradient(235deg, rgba(140, 87, 238, 0.03) 3.9%, rgba(241, 68, 174, 0.03) 100.56%);
+    /* text-align: center; */
+}
+.sky-blue{
+    font-size: 16px;
+    background-color: #4EC5F7;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    border: none;
+    font-weight: 600;
+
+}
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.banner-writing{
+    padding: 50px 100px;
+}
+/* style of we are gammer part-------------------
+--------------------------------------------- */
+.we-are-gammer{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 100px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+
+}
+.gammer-writing-part h4{
+    color: #534C64;
+    font-weight: 700;
+    
+    
+}
+.we-are-gammer>div{
+    width: 50%;
+}
+.gammer-img img{
+    width: 100%;
+}
+.gammer-writing-part{
+    text-align: right;
+}
+/* end we are gammer part---------------
+------------------------------------------ */
+
+
+ /* styles of online game funny videos part-------------------
+ ------------------------------------------------- */
+ .online-game{
+    text-align: center;
+ }
+ .card{
+    border-radius: 16px;
+    position: relative;
+ }
+ .card img{
+    width: 250px;
+    border-radius: 16px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+ }
+ .hover{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 150px;
+    /* display: none; */
+ }
+ .hover img{
+    width: 50px;
+    border-radius: 0px;
+ }
+ .online-game-cards{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+ }
+ .online-game{
+    padding: 50px 100px;
+ }
+ .online-game .paragraph{
+    padding: 20px 0;
+ }
+ /* end of online funny video part-------------------
+ ------------------------------------------------- */
+ /* start play video part-----------
+ -------------------------------------- */
+ .img-1 img{
+    width: 400px;
+    
+ }
+ .img-2 img{
+    width: 200px;
+ }
+ .play-img{
+    position: relative;
+ }
+ .img-2{
+    position: relative;
+    bottom: 100px;
+    left: -150px;
+ }
+ .play-instally{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:300px;
+    padding: 50px 100px;
+ }
+ /* .play-instally>div{
+    width: 50%;
+ } */
+ /* .play-img img{
+    width: 100%;
+ } */
+ /* end of play instally part--------------
+ --------------------------------------- */
+ /* start of play games part-------------
+ --------------------------------------- */
+ .img-3 img{
+    width: 400px;
+ }
+ .img-4 img{
+    width: 200px;
+ }
+ .play-games{
+    position: relative;
+ }
+ .img-4 {
+    position:relative;
+    bottom: 100px;
+    left: 300px;
+
+ }
+ .play-games{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    padding: 10px 100px;
+ }
+ 
+
+  

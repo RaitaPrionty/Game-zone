@@ -1,0 +1,156 @@
+/* media for header nav part----------
+------------------ */
+@media screen and (max-width:1000px){
+    header{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+@media screen and (max-width:767px){
+    .header_nav{
+        flex-direction: column;
+        font-size: 16px;
+    }
+}
+/* media for header banner part-------------------
+-------------------------------------------- */
+@media screen and (max-width:998px){
+    .header-banner{
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+    .banner-writing{
+    /* padding: 100px; */
+        /* padding: 0; */
+        margin-right: 0;
+        /* padding-left: 300px; */
+        
+    
+    }
+    
+    
+}
+@media screen and (max-width:576px){
+    .header-banner{
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+    .banner-writing{
+padding: 0px;
+        margin: 0;
+    
+    }
+    .header-banner>div{
+        width: 100%;
+        
+    }
+    .paragraph, .pink, .sky-blue{
+font-size: 12px;
+    }
+    .common{
+        font-size: 30px;
+    }
+    .banner-writing h2{
+        font-size: 20px;
+    }
+}
+/* end of header banner's media-------------
+--------------------------------------- */
+
+/* start we are gammer part---------------
+----------------------------------------- */
+@media screen and (max-width:900px){
+    .we-are-gammer{
+flex-direction: column;
+padding: 50px 0;
+    }
+    .gammer-writing-part{
+        text-align: center;
+    }
+    .we-are-gammer>div{
+        width: 100%;
+        
+    }
+    
+    
+}
+@media screen and (max-width:600px){
+    .we-are-gammer>div{
+        width: 100%;
+        
+    }
+    .gammer-img img{
+        width: 100%;
+    }
+    
+
+}
+/* end of we are gammer part-------------
+---------------------------------------- */
+
+
+/* start online game funny video---------------
+-------------------------------------------------- */
+@media screen and (max-width:1280px){
+    .online-game-cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+}
+@media screen and (max-width:776px){
+    .online-game-cards{
+        display: flex;
+        flex-direction: column;
+    }
+}
+/* start play instally section---------
+-------------------------------------- */
+@media screen and (max-width:1000px){
+    .play-instally{
+        flex-direction: column-reverse;
+        gap: 100px;
+    }
+   
+}
+@media screen and (max-width:750px){
+    .img-1 img{
+        width: 200px;
+    }
+    .img-2 img{
+        width: 80px;
+    }
+    .img-2{
+        position: absolute;
+        bottom: -50px;
+        left: -50px;
+     }
+}
+/* end play instally-------------------
+------------------------------ */
+
+/* start play games------------------------
+----------------------------------------- */
+@media screen and (max-width:1000px){
+    .play-games{
+        flex-direction: column;
+        gap: 50px;
+    }
+}
+@media screen and (max-width:576px){
+    .play-games{
+        padding: 0;
+    }
+    .img-3 img{
+        width: 200px;
+    }
+    .img-4 {
+        position:relative;
+        bottom: 50px;
+        left: 150px;
+    
+     }
+     .img-4 img{
+        width: 80px;
+    }
+}
