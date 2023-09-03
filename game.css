@@ -242,28 +242,63 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
  --------------------------------------- */
  /* start of play games part-------------
  --------------------------------------- */
+ 
  .img-3 img{
     width: 400px;
  }
  .img-4 img{
     width: 200px;
- }
- .play-games{
     position: absolute;
- }
- .img-4 {
-    position:relative;
-    bottom: 100px;
+    bottom: -100px;
     left: 300px;
-
+ }
+ .images{
+    position: relative;
  }
  .play-games{
     display: flex;
-    align-items: center;
     justify-content: center;
-    gap: 300px;
-    padding: 10px 100px;
+    align-items: center;
+    gap: 200px;
+    padding: 50px 100px;
  }
- 
+ /* styles of careers part--------------
+ --------------------------------------- */
+ .para{
+    display: flex;
+    gap: 50px;
+ }
+ .white{
+    font-size: 12px;
+font-style: normal;
+font-weight: 600;
+background-color: white;
+color: #F948B2;
+border: none;
+padding: 10px 20px;
+border-radius: 18px;
+ }
+ .careers{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+    background-image: url(./images/Group\ 14.png);
+    margin-top: 100px;
+    background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+    color: white;
 
+
+ }
+ .careers>div{
+    width: 50%;
+ }
+ .img img{
+    width: 100%;
+ }
+
+ .img{
+    fill: rgba(255, 255, 255, 0.10);
+ }
   
