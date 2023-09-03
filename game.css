@@ -301,4 +301,60 @@ border-radius: 18px;
  .img{
     fill: rgba(255, 255, 255, 0.10);
  }
-  
+ /* styles of grid part------------------
+ ----------------------------------------- */
+ .pic-para{
+    display: flex;
+    gap: 20px;
+ }
+ .grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 20px;
+    padding: 50px 100px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+    background-color: hsl(324, 94%, 63%);
+    margin-top: 50px;
+ }
+ 
+ .grid>div:hover{
+    border: 1px solid red;
+    border-radius: 20px;
+ }
+ /* styles of footer part---------------------
+ ---------------------------------------------- */
+ .footer-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+ }
+ footer h6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    
+ }
+ .icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+ }
+ .footer-para{
+   display: flex;
+   gap: 20px;
+   justify-content: center;
+   align-items: center;
+ }
+ .extra-para{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+  footer{
+    background: #0B0223;
+    padding: 50px 0;
+  }
